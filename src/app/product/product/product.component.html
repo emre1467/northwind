@@ -1,0 +1,6 @@
+<mat-drawer-container class="example-container">
+        <mat-drawer class="driver" mode="side" opened><app-add-product></app-add-product></mat-drawer>
+        <mat-drawer-content><li *ngFor="let veri of data">{{veri.productName}} || {{veri.productId}}</li>
+        </mat-drawer-content>
+      </mat-drawer-container>
+      <ngx-spinner type="ball-scale-multiple"></ngx-spinner>

@@ -1,0 +1,9 @@
+<form [formGroup]="frm" (ngSubmit)="onSubmit()">
+        <input type="text" formControlName="productName" placeholder="ProductName">
+        <input type="number" formControlName="categoryId" placeholder="categoryId">
+        <input type="text" formControlName="quantityPerUnit" placeholder="quantityPerUnit">
+        <input type="number" formControlName="unitPrice" placeholder="unitPrice">
+        <input type="number" formControlName="unitsInStock" placeholder="unitsInStock">
+<button>Send</button>
+</form>
+
